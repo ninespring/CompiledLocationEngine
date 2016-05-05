@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84546D071CDB1BF2002176AF /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84546D061CDB1BF2002176AF /* LocationController.m */; };
 		84A1905A1CD20E5700E3F8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A190591CD20E5700E3F8D8 /* main.m */; };
 		84A1905D1CD20E5700E3F8D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1905C1CD20E5700E3F8D8 /* AppDelegate.m */; };
 		84A190601CD20E5700E3F8D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1905F1CD20E5700E3F8D8 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		84A190681CD20E5700E3F8D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A190661CD20E5700E3F8D8 /* LaunchScreen.storyboard */; };
 		84A190731CD20E5700E3F8D8 /* CompiledLocationEngineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A190721CD20E5700E3F8D8 /* CompiledLocationEngineTestTests.m */; };
 		84A1907E1CD20E5700E3F8D8 /* CompiledLocationEngineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1907D1CD20E5700E3F8D8 /* CompiledLocationEngineTestUITests.m */; };
+		84A1911E1CD212B200E3F8D8 /* 101001200002.optparam in Resources */ = {isa = PBXBuildFile; fileRef = 84A1911B1CD212B200E3F8D8 /* 101001200002.optparam */; };
+		84A1911F1CD212B200E3F8D8 /* 101001200002.wifilist in Resources */ = {isa = PBXBuildFile; fileRef = 84A1911C1CD212B200E3F8D8 /* 101001200002.wifilist */; };
+		84A191201CD212B200E3F8D8 /* 101001200002.wp in Resources */ = {isa = PBXBuildFile; fileRef = 84A1911D1CD212B200E3F8D8 /* 101001200002.wp */; };
+		84A191261CD2173400E3F8D8 /* libNexdTechLocationEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A191251CD2173400E3F8D8 /* libNexdTechLocationEngine.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84546D061CDB1BF2002176AF /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		84546D091CDB1CB5002176AF /* LocationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
 		84A190551CD20E5700E3F8D8 /* CompiledLocationEngineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompiledLocationEngineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A190591CD20E5700E3F8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A1905B1CD20E5700E3F8D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,12 @@
 		84A190791CD20E5700E3F8D8 /* CompiledLocationEngineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompiledLocationEngineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A1907D1CD20E5700E3F8D8 /* CompiledLocationEngineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompiledLocationEngineTestUITests.m; sourceTree = "<group>"; };
 		84A1907F1CD20E5700E3F8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A191051CD211E900E3F8D8 /* locate_code_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locate_code_base.h; sourceTree = "<group>"; };
+		84A1911B1CD212B200E3F8D8 /* 101001200002.optparam */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 101001200002.optparam; sourceTree = "<group>"; };
+		84A1911C1CD212B200E3F8D8 /* 101001200002.wifilist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 101001200002.wifilist; sourceTree = "<group>"; };
+		84A1911D1CD212B200E3F8D8 /* 101001200002.wp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 101001200002.wp; sourceTree = "<group>"; };
+		84A191241CD216D600E3F8D8 /* libNexdTechLocationEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNexdTechLocationEngine.a; path = ../libNexdTechLocationEngine.a; sourceTree = "<group>"; };
+		84A191251CD2173400E3F8D8 /* libNexdTechLocationEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNexdTechLocationEngine.a; path = ../../../../../../Desktop/libNexdTechLocationEngine.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A191261CD2173400E3F8D8 /* libNexdTechLocationEngine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84546D081CDB1CA0002176AF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84546D091CDB1CB5002176AF /* LocationController.h */,
+				84546D061CDB1BF2002176AF /* LocationController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		84A1904C1CD20E5700E3F8D8 = {
 			isa = PBXGroup;
 			children = (
+				84A191251CD2173400E3F8D8 /* libNexdTechLocationEngine.a */,
 				84A190571CD20E5700E3F8D8 /* CompiledLocationEngineTest */,
 				84A190711CD20E5700E3F8D8 /* CompiledLocationEngineTestTests */,
 				84A1907C1CD20E5700E3F8D8 /* CompiledLocationEngineTestUITests */,
@@ -101,6 +125,7 @@
 		84A190571CD20E5700E3F8D8 /* CompiledLocationEngineTest */ = {
 			isa = PBXGroup;
 			children = (
+				84546D081CDB1CA0002176AF /* Core */,
 				84A1905B1CD20E5700E3F8D8 /* AppDelegate.h */,
 				84A1905C1CD20E5700E3F8D8 /* AppDelegate.m */,
 				84A1905E1CD20E5700E3F8D8 /* ViewController.h */,
@@ -117,6 +142,11 @@
 		84A190581CD20E5700E3F8D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A191241CD216D600E3F8D8 /* libNexdTechLocationEngine.a */,
+				84A1911B1CD212B200E3F8D8 /* 101001200002.optparam */,
+				84A1911C1CD212B200E3F8D8 /* 101001200002.wifilist */,
+				84A1911D1CD212B200E3F8D8 /* 101001200002.wp */,
+				84A191051CD211E900E3F8D8 /* locate_code_base.h */,
 				84A190591CD20E5700E3F8D8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,6 +237,7 @@
 				TargetAttributes = {
 					84A190541CD20E5700E3F8D8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6KFX63Q6AW;
 					};
 					84A1906D1CD20E5700E3F8D8 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,8 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A1911F1CD212B200E3F8D8 /* 101001200002.wifilist in Resources */,
 				84A190681CD20E5700E3F8D8 /* LaunchScreen.storyboard in Resources */,
 				84A190651CD20E5700E3F8D8 /* Assets.xcassets in Resources */,
+				84A191201CD212B200E3F8D8 /* 101001200002.wp in Resources */,
+				84A1911E1CD212B200E3F8D8 /* 101001200002.optparam in Resources */,
 				84A190631CD20E5700E3F8D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84546D071CDB1BF2002176AF /* LocationController.m in Sources */,
 				84A190601CD20E5700E3F8D8 /* ViewController.m in Sources */,
 				84A1905D1CD20E5700E3F8D8 /* AppDelegate.m in Sources */,
 				84A1905A1CD20E5700E3F8D8 /* main.m in Sources */,
@@ -411,8 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CompiledLocationEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nexdtech.CompiledLocationEngineTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,8 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CompiledLocationEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nexdtech.CompiledLocationEngineTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +541,7 @@
 				84A190841CD20E5700E3F8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A190851CD20E5700E3F8D8 /* Build configuration list for PBXNativeTarget "CompiledLocationEngineTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +550,7 @@
 				84A190871CD20E5700E3F8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A190881CD20E5700E3F8D8 /* Build configuration list for PBXNativeTarget "CompiledLocationEngineTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +559,7 @@
 				84A1908A1CD20E5700E3F8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
